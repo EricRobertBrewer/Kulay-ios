@@ -43,6 +43,7 @@
 		4FC6DA9CDFC45572530A652A /* Pods_KulayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KulayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE4B4A3EBB51E9DF63A7D08 /* Pods-KulayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KulayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KulayTests/Pods-KulayTests.release.xcconfig"; sourceTree = "<group>"; };
 		6054DD942F9064796C3D56A9 /* Pods_KulayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KulayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2026B111D6527EF00B8726E /* Kulay-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Kulay-Bridging-Header.h"; sourceTree = "<group>"; };
 		A240619B1D64F3F2005FFD29 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Kulay/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A26405B51D5E86F300420CF1 /* Kulay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kulay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26405B81D5E86F300420CF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +147,7 @@
 				A26405BF1D5E86F300420CF1 /* Assets.xcassets */,
 				A26405C11D5E86F300420CF1 /* LaunchScreen.storyboard */,
 				A26405C41D5E86F300420CF1 /* Info.plist */,
+				A2026B111D6527EF00B8726E /* Kulay-Bridging-Header.h */,
 			);
 			path = Kulay;
 			sourceTree = "<group>";
