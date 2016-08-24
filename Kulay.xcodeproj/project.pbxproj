@@ -11,7 +11,7 @@
 		22E8A969E360DC7DD4EE577F /* Pods_KulayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6054DD942F9064796C3D56A9 /* Pods_KulayUITests.framework */; };
 		A240619C1D64F3F2005FFD29 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A240619B1D64F3F2005FFD29 /* GoogleService-Info.plist */; };
 		A26405B91D5E86F300420CF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26405B81D5E86F300420CF1 /* AppDelegate.swift */; };
-		A26405BB1D5E86F300420CF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26405BA1D5E86F300420CF1 /* ViewController.swift */; };
+		A26405BB1D5E86F300420CF1 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26405BA1D5E86F300420CF1 /* ColorViewController.swift */; };
 		A26405BE1D5E86F300420CF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26405BC1D5E86F300420CF1 /* Main.storyboard */; };
 		A26405C01D5E86F300420CF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26405BF1D5E86F300420CF1 /* Assets.xcassets */; };
 		A26405C31D5E86F300420CF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26405C11D5E86F300420CF1 /* LaunchScreen.storyboard */; };
@@ -47,7 +47,7 @@
 		A240619B1D64F3F2005FFD29 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Kulay/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A26405B51D5E86F300420CF1 /* Kulay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kulay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26405B81D5E86F300420CF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A26405BA1D5E86F300420CF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A26405BA1D5E86F300420CF1 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 		A26405BD1D5E86F300420CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A26405BF1D5E86F300420CF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A26405C21D5E86F300420CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -142,7 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				A26405B81D5E86F300420CF1 /* AppDelegate.swift */,
-				A26405BA1D5E86F300420CF1 /* ViewController.swift */,
+				A26405BA1D5E86F300420CF1 /* ColorViewController.swift */,
 				A26405BC1D5E86F300420CF1 /* Main.storyboard */,
 				A26405BF1D5E86F300420CF1 /* Assets.xcassets */,
 				A26405C11D5E86F300420CF1 /* LaunchScreen.storyboard */,
@@ -433,7 +433,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A26405BB1D5E86F300420CF1 /* ViewController.swift in Sources */,
+				A26405BB1D5E86F300420CF1 /* ColorViewController.swift in Sources */,
 				A26405B91D5E86F300420CF1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
